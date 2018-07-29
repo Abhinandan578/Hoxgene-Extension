@@ -1,0 +1,20 @@
+{ 
+	"description" : "Extension for Hoxgene",
+	"name" : "Hoxgene",
+	"version" : "1.2",
+	"manifest_version": 2,
+
+	"permissions": 
+	[
+		"activeTab",
+		"tabs"
+	],
+	"background": 
+	{
+  		"scripts": ["injected_page.js"]
+  	},
+	 "icons": 
+	{
+     "128": "hoxgene.png"
+  	}
+}
